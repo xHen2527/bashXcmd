@@ -10,6 +10,7 @@ echo =========================================
 echo ======================================================================================= >> "bash.log"
 echo. >> "bash.log"
 echo Logged as %USERNAME% at %DATE% %TIME% >> "bash.log"
+echo. >> "bash.log"
 pause>nul|(echo Logged as %USERNAME%)
 echo.
 echo User Used Commands: >> "bash.log"
